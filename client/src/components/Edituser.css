@@ -1,0 +1,35 @@
+.modall{
+    position: absolute;
+    top: 140px;
+    left: 334px;
+    background-color: grey;
+    width: 550px;
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: SPACE-AROUND;
+    border-radius: 30px;
+    padding: 23px;
+    
+}
+.modall2{
+    position: absolute;
+    top: 140px;
+    left: 334px;
+    background-color: grey;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: SPACE-AROUND;
+    border-radius: 30px;
+    padding: 23px;
+    
+}
+
+.btnn{
+    margin: 20px;
+   
+}

@@ -1,0 +1,120 @@
+.parent {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+   
+    
+}
+.box{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 321px;
+    margin-top: 117px;
+    background: white;
+    flex-direction: column;
+    padding: 55PX;
+  
+}
+.images {
+  
+    height: 250px;
+    display: flex;
+
+    margin-top: 10px;
+    background-color: white !important;
+    
+    
+}
+
+.images img {
+    width: 52%;
+    height: 103px;
+    background-color: rgb(233, 148, 37);
+    
+}
+
+.bigbox img {
+    width: fit-content !important;
+    height: 450px;
+
+
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ flex-direction: column;
+ align-items: center;
+
+}
+
+.images button {
+    border-radius: none;
+    border: none;
+    background-color: white;
+}
+.images img{
+    width: fit-content;
+}
+.box{
+    box-sizing: border-box;
+    display: inline;
+}
+.containerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+background-color: white;
+}
+.box h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.containerr h1{
+    margin-top: 50px;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.containerr h3{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.commande{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    color: white;
+    padding: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+  border-radius: 10px;
+}
+
+.commande span:first-child{
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.commande:hover{
+  
+    /* background-color: rgb(248, 80, 80); */
+
+}
+.detail a{
+    text-decoration: none;
+    color: red;
+  
+}
